@@ -3,8 +3,6 @@
 Self-hosted, multi-service infrastructure orchestrated with Docker Compose, 
 fronted by Nginx as a reverse proxy, with manually designed firewall rules.
 
-## Status: In Progress
-
 ## Services currently running
 - Pi-hole (DNS / ad-blocking)
 - Audiobookshelf (audiobook server)
@@ -40,7 +38,7 @@ homelab/
 ```
 
 ## Roadmap
-- [ ] Certbot / real SSL
+- [x] Certbot / real SSL
 - [ ] WireGuard VPN
 - [ ] Firewall rules (iptables/ufw)
 - [ ] Observability stack (Prometheus, Grafana, Loki)

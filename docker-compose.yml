@@ -8,7 +8,6 @@ services:
       - "53:53/tcp"
       - "53:53/udp"
       - "8081:80/tcp"
-      - "443:443/tcp"
 
     environment:
       TZ: '${TZ}'
